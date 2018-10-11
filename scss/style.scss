@@ -3,7 +3,7 @@ $primary-overlay : rgba(50, 146, 166, 0.8);
 
 body {
     margin-top: 105px;
-  
+
 
 }
 
@@ -23,7 +23,7 @@ body {
     background: url('../img/mountains.jpg');
     min-height: 600px;
     margin-top: 106px;
-  
+
 
     .primary-overlay {
         background: $primary-overlay;
@@ -32,10 +32,15 @@ body {
         left: 0;
         width: 100%;
         height: 100%;
-        
-       
+
+
     }
-    
+
+}
+.info-header{
+    width: 50%;
+    margin: auto;
+    border-bottom: 1px #ddd solid;
 }
 
 
@@ -45,23 +50,23 @@ body {
 
 
 
+@media(max-width: 320px) {
 
-@media(max-width: 320px){
-    
 
-    .mb-resp{
+    .mb-resp {
         margin-bottom: 1rem;
     }
 }
 
 @media(max-width: 600px) {
-   #showcase {
-       min-height: 480px;
+    #showcase {
+        min-height: 480px;
 
-       h1 {
-           font-size: 3.5rem
-       }
-   }
+        h1 {
+            font-size: 3.5rem
+        }
+    }
+
     .mb-resp {
         margin-bottom: 1rem;
     }
