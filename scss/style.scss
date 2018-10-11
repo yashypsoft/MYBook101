@@ -54,4 +54,15 @@ body {
             font-size: 3.5rem
         }
     }
+
+    .mb-resp{
+        margin-bottom: 1rem;
+    }
+}
+
+@media(max-width: 600px) {
+   
+    .mb-resp {
+        margin-bottom: 1rem;
+    }
 }
