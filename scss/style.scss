@@ -47,13 +47,7 @@ body {
 
 
 @media(max-width: 320px){
-    #showcase {
-        min-height: 480px;
-
-        h1{
-            font-size: 3.5rem
-        }
-    }
+    
 
     .mb-resp{
         margin-bottom: 1rem;
@@ -61,7 +55,13 @@ body {
 }
 
 @media(max-width: 600px) {
-   
+   #showcase {
+       min-height: 480px;
+
+       h1 {
+           font-size: 3.5rem
+       }
+   }
     .mb-resp {
         margin-bottom: 1rem;
     }

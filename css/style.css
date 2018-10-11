@@ -23,13 +23,13 @@ body {
     height: 100%; }
 
 @media (max-width: 320px) {
+  .mb-resp {
+    margin-bottom: 1rem; } }
+@media (max-width: 600px) {
   #showcase {
     min-height: 480px; }
     #showcase h1 {
       font-size: 3.5rem; }
 
-  .mb-resp {
-    margin-bottom: 1rem; } }
-@media (max-width: 600px) {
   .mb-resp {
     margin-bottom: 1rem; } }
